@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-adf-amc",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be26bf81-ba9c-428e-bbdf-cf911b4e1439",
+		"tenantId": "3a717ad5-925b-4dd6-b320-9a2703b1be12"
+	}
+}
