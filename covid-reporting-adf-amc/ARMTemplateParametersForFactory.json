@@ -19,6 +19,12 @@
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/85e277ee-3ba2-4903-b9af-817dac7d233c/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingsaf"
+		},
+		"tr_ingest_hospital_admissions_data_properties_pl_ingest_cases_deaths_data_parameters_sourceRelativeURL": {
+			"value": "cloudboxacademy/covid19/raw/main/ecdc_data/hospital_admissions.csv"
+		},
+		"tr_ingest_hospital_admissions_data_properties_pl_ingest_cases_deaths_data_parameters_sinkFileName": {
+			"value": "hospital_admissions.csv"
 		}
 	}
 }
