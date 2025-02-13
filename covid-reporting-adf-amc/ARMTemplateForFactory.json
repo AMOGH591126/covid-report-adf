@@ -640,8 +640,9 @@
 					"recurrence": {
 						"frequency": "Day",
 						"interval": 1,
-						"startTime": "2025-02-13T16:15:00",
-						"timeZone": "India Standard Time"
+						"startTime": "2025-02-13T16:18:00",
+						"timeZone": "India Standard Time",
+						"schedule": {}
 					}
 				}
 			},
