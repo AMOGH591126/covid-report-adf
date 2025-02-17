@@ -439,7 +439,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Data flow1",
+						"name": "df_transform_hospital_admissions",
 						"type": "ExecuteDataFlow",
 						"dependsOn": [],
 						"policy": {
