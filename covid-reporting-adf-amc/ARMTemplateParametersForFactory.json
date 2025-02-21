@@ -11,6 +11,9 @@
 		"ls_adls_covidreportingdl_accountKey": {
 			"value": ""
 		},
+		"databricksAdfIR_properties_typeProperties_baseUrl": {
+			"value": "https://formula1dl8356-key-vault.vault.azure.net/"
+		},
 		"is_http_opendata_ecdc_europa_eu_fixed_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
 		},
