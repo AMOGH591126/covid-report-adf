@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_adls_covidreportingdl'"
 		},
+		"ls_sql_covid_db_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ls_sql_covid_db'"
+		},
 		"databricksAdfIR_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://formula1dl8356-key-vault.vault.azure.net/"
@@ -30,6 +34,18 @@
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "@{linkedService().sourceBaseURL}"
+		},
+		"ls_sql_covid_db_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "covid-srvf.database.windows.net"
+		},
+		"ls_sql_covid_db_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "covid-db"
+		},
+		"ls_sql_covid_db_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "adm"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
@@ -68,6 +84,9 @@
 					"ls_adls_covidreportingdl_accountKey": {
 						"value": "[parameters('ls_adls_covidreportingdl_accountKey')]"
 					},
+					"ls_sql_covid_db_password": {
+						"value": "[parameters('ls_sql_covid_db_password')]"
+					},
 					"databricksAdfIR_properties_typeProperties_baseUrl": {
 						"value": "[parameters('databricksAdfIR_properties_typeProperties_baseUrl')]"
 					},
@@ -79,6 +98,15 @@
 					},
 					"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 						"value": "[parameters('ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url')]"
+					},
+					"ls_sql_covid_db_properties_typeProperties_server": {
+						"value": "[parameters('ls_sql_covid_db_properties_typeProperties_server')]"
+					},
+					"ls_sql_covid_db_properties_typeProperties_database": {
+						"value": "[parameters('ls_sql_covid_db_properties_typeProperties_database')]"
+					},
+					"ls_sql_covid_db_properties_typeProperties_userName": {
+						"value": "[parameters('ls_sql_covid_db_properties_typeProperties_userName')]"
 					}
 				}
 			},
