@@ -111,6 +111,9 @@
 					},
 					"ls_sql_covid_db_properties_typeProperties_userName": {
 						"value": "[parameters('ls_sql_covid_db_properties_typeProperties_userName')]"
+					},
+					"tr_ingest_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
 					}
 				}
 			},
@@ -129,9 +132,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"tr_ingest_population_data_properties_typeProperties_scope": {
-						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
 					},
 					"tr_population_data_arrived_properties_typeProperties_scope": {
 						"value": "[parameters('tr_population_data_arrived_properties_typeProperties_scope')]"
