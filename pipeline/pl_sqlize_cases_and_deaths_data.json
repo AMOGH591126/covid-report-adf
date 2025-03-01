@@ -61,6 +61,9 @@
 		"folder": {
 			"name": "Sqlize"
 		},
-		"annotations": []
+		"annotations": [
+			"Environment:Production",
+			"Owner:DataTeam"
+		]
 	}
 }
